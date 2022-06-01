@@ -1,0 +1,135 @@
+#---------------------------------------------
+# TINT2 CONFIG FILE
+#---------------------------------------------
+
+panel_items = CTSB
+
+#---------------------------------------------
+# BACKGROUND AND BORDER
+#---------------------------------------------
+rounded = 2
+border_width = 0
+background_color = #000000 ff
+border_color = #ffffff 35
+
+rounded = 2
+border_width = 0
+background_color = #999999 40
+border_color = #ffffff 50
+
+rounded = 2
+border_width = 1
+background_color = #000000 70
+border_color = #ffffff 40
+
+#---------------------------------------------
+# PANEL
+#---------------------------------------------
+#panel_monitor = all
+panel_monitor = 2
+panel_position = center right vertical
+panel_size = 100% 120
+panel_margin = 0 0
+panel_padding = 1 1
+font_shadow = 0
+panel_background_id = 0
+wm_menu = 0
+
+#---------------------------------------------
+# LAUNCHER
+#---------------------------------------------
+
+launcher_icon_theme = Tango
+launcher_padding = 2 2 2
+launcher_background_id = 3
+launcher_icon_size = 64
+launcher_item_app = /usr/share/applications/opera-browser.desktop
+launcher_item_app = /usr/share/applications/Thunar.desktop
+launcher_item_app = /usr/share/applications/sonata.desktop
+#launcher_item_app = /usr/share/applications/opera-browser.desktop
+launcher_item_app = /usr/share/gdm/applications/gdmflexiserver.desktop
+
+
+#---------------------------------------------
+# TASKBAR
+#---------------------------------------------
+taskbar_mode = multi_desktop
+#taskbar_mode = single_desktop
+taskbar_padding = 2 2 2
+taskbar_background_id = 3
+
+#---------------------------------------------
+# TASKS
+#---------------------------------------------
+task_icon = 1
+task_text = 0
+task_width = 0
+task_centered = 1
+task_padding = 2 2
+task_font = DejaVu Sans Book 16
+#task_font = Liberation Sans 9
+task_font_color = #ffffff 50
+task_active_font_color = #ffffff 70
+task_background_id = 0
+task_active_background_id = 2
+task_maximum_size = 64 64
+
+#---------------------------------------------
+# SYSTRAYBAR
+#---------------------------------------------
+systray_padding = 8 4 4
+systray_background_id = 3
+systray = 1 
+#systray_sort = right2left
+systray_sort = ascending
+systray_icon_size = 48
+#systray_icon_asb = 100 -100 -10
+
+#---------------------------------------------
+# CLOCK
+#---------------------------------------------
+time1_format = %H:%M
+time1_font = DejaVu Sans Book 18
+time1_timezone = Europe/Prague
+time2_font = DejaVu Sans Book 13
+time2_format = %a%n%e. %b%n%G
+clock_tooltip = %A %e. %B
+clock_font_color = #ffffff 76
+clock_padding = 1 1
+clock_background_id = 3
+#clock_lclick_command = xclock
+clock_lclick_command = orage
+#clock_lclick_command = gsimplecal
+
+#---------------------------------------------
+# BATTERY
+#---------------------------------------------
+battery = 1
+battery_low_status = 10
+battery_low_cmd = notify-send "Battery low"
+bat1_font = DejaVu Sans Book 10
+bat2_font = DejaVu Sans Book 7
+battery_font_color = #ffffff 76
+battery_padding = 2 2
+battery_background_id = 3
+
+
+#---------------------------------------------
+# MOUSE ACTION ON TASK
+#---------------------------------------------
+mouse_middle = close
+mouse_right = none
+mouse_scroll_up = toggle
+mouse_scroll_down = iconify
+
+#---------------------------------------------
+# TOOLTIP
+#---------------------------------------------
+tooltip = 1
+tooltip_padding = 4 4
+tooltip_show_timeout = 0.5
+tooltip_hide_timeout = 0.5
+tooltip_background_id = 3
+tooltip_font_color = #ffffff 76
+tooltip_font = DejaVu Sans Book 16
+
